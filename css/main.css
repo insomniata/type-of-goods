@@ -1,0 +1,51 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "Proxima Nova";
+  color: #000000;
+  width: 1600px;
+}
+
+body section {
+  width: 1140px;
+  margin: 100px auto;
+}
+
+.goods__title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+.type-of-goods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+}
+
+.good {
+  text-align: center;
+}
+
+.good__name {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+.good__price {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.good__button {
+  color: #23bac1;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 23px 75px;
+  border: 1px solid #23bac1; 
+  background-color: transparent;
+}
